@@ -1,0 +1,27 @@
+.contact {
+
+  h3 {
+    color: $colorTitle;
+    font-family: 'Courgette', cursive;
+  }
+  p {
+    font-family: 'Courgette', cursive;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .contact {
+    text-align: left;
+
+    h3 {
+      text-align: left;
+    }
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .contact {
+    display: none;
+  }
+}
